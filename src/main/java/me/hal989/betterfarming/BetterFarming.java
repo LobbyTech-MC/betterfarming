@@ -64,8 +64,8 @@ public class BetterFarming extends JavaPlugin implements SlimefunAddon {
         magicalSword = new SlimefunItemStack("MAGICALSWORD", Material.IRON_SWORD, "&f魔法剑", "", "&a用这把剑破坏草可能会", "&a掉落卢比。");
         masterSword = new SlimefunItemStack("MASTERSWORD", Material.DIAMOND_SWORD, "&b大师之剑", "", "&a用这把剑破坏草可能会", "&a掉落卢比。", "&a当你满血时，卢比掉落几率提升。");
         // SlimefunItemStack fierceDeitySword = new SlimefunItemStack("FIERCEDEITYSWORD", Material.DIAMOND_SWORD, "&c勇者之剑", "", "&a用这把剑攻击敌人可能会","&a掉落卢比。","&6当你满血时，掉落几率提升。");
-        masterSword.addUnsafeEnchantment(Enchantment.DURABILITY, 3);
-        enchGoldenAppleHoe.addUnsafeEnchantment(Enchantment.DURABILITY, 5);
+        masterSword.addUnsafeEnchantment(Enchantment.UNBREAKING, 3);
+        enchGoldenAppleHoe.addUnsafeEnchantment(Enchantment.UNBREAKING, 5);
         //endregion
         //region Recipe Making
         ItemStack[] potRecipe = {

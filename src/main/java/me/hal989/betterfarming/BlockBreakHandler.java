@@ -43,7 +43,7 @@ public class BlockBreakHandler implements Listener {
                 }
             }
         }
-        if (blockName.equals(Material.GRASS) || blockName.equals(Material.TALL_GRASS)) {
+        if (blockName.equals(Material.SHORT_GRASS) || blockName.equals(Material.TALL_GRASS)) {
             if (hand.getId().equals(kokiriSword.getItemId())) {
                 if (Math.random() > 0.5) {
                     if (Math.random() < 0.9) {
